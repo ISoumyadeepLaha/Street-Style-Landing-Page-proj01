@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Poppins:ital@0;1&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.list-items a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:focus {
+  font-weight: 800;
+  border-bottom: 2px solid black;
+}
+
+.search-group {
+  min-width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.search-icon {
+  margin-top: 5px;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  background: transparent;
+  border-radius: 10px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.hero-img {
+  margin: 100px 80px;
+}
+
+.square {
+  position: absolute;
+  left: 11%;
+  top: 42%;
+}
+.hero {
+  position: absolute;
+  top: 20%;
+}
+
+.star {
+  position: absolute;
+  left: 43%;
+  top: 83%;
+}
+.globe {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.star2 {
+  position: absolute;
+  top: 25%;
+  left: 90%;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-left {
+  width: 20%;
+  height: 100%;
+}
+.container-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  right: 5%;
+  top: 25%;
+  margin-top: 30px;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: center;
+}
+.description {
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.button-email {
+  margin-top: 40px;
+  min-width: 200px;
+  font-size: 20px;
+}
+
+.button-join {
+  margin-top: 40px;
+  min-width: fit-content;
+  font-size: 20px;
+  background-color: #080101;
+  color: #ffffff;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icons {
+  margin-top: 18px;
+}
+
+.contact-heading {
+  font-size: 20px;
+}
+
+span {
+  margin-left: 10px;
+}
